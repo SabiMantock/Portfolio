@@ -48,6 +48,9 @@ export const MenuButton = styled.div`
   margin: 0;
   width: 35px;
   height: 35px;
+  .css-tzssek-MuiSvgIcon-root {
+    fill: #4660ad;
+  }
   @media (min-width: 769px) {
     display: none;
   }

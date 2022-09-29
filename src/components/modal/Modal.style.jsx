@@ -33,6 +33,9 @@ export const CloseButton = styled.div`
   height: 35px;
   position: fixed;
   right: 0;
+  .css-tzssek-MuiSvgIcon-root {
+    fill: #4660ad;
+  }
   @media (max-width: 768px) {
     padding: 20px 25px;
   }

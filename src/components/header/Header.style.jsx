@@ -19,7 +19,7 @@ export const HeaderTextContainer = styled.div`
   width: 500px;
   @media (max-width: 668px) {
     width: 100%;
-    margin: 30px 0;
+    margin-top: 100px;
   }
 `;
 

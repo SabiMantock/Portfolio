@@ -26,7 +26,8 @@ const Header = () => {
             color: "#4660ad",
           }}
           strings={[
-            "Hey there, I am Sabi Mantock",
+            "Hey there,",
+            "I am Sabi Mantock",
             "A Software Developer",
             "Specialized in React",
           ]}
