@@ -33,7 +33,6 @@ export const CloseButton = styled.div`
   height: 35px;
   position: fixed;
   right: 0;
-  padding: 20px 100px;
   @media (max-width: 768px) {
     padding: 20px 25px;
   }
