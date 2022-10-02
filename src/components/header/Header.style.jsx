@@ -19,8 +19,15 @@ export const HeaderTextContainer = styled.div`
   width: 500px;
   @media (max-width: 668px) {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
   }
+`;
+export const HeaderTitle = styled.h4`
+  font-size: 1rem;
+  font-family: "Poppins-Light";
+  font-weight: bold;
+  color: #fb9039;
+  margin: 0;
 `;
 
 export const HeaderImagecontainer = styled.div`
@@ -47,6 +54,7 @@ export const ResumeButton = styled.button`
   text-transform: uppercase;
   letter-spacing: 2.5px;
   border-radius: 5px;
+  margin-top: 10px;
   cursor: pointer;
   &:hover {
     background: #88f7ff;

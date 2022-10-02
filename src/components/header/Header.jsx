@@ -7,17 +7,16 @@ import {
   HeaderImagecontainer,
   HeaderText,
   HeaderTextContainer,
+  HeaderTitle,
   ResumeButton,
 } from "./Header.style";
+import { linkButton } from "../../config/config";
 
 const Header = () => {
-  const resumeButton = (url) => {
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
-
   return (
     <HeaderContainer>
       <HeaderTextContainer>
+        <HeaderTitle>Hello! I AM </HeaderTitle>
         <ReactTyped
           style={{
             fontSize: "1.75rem",
@@ -26,8 +25,7 @@ const Header = () => {
             color: "#4660ad",
           }}
           strings={[
-            "Hey there,",
-            "I am Sabi Mantock",
+            "Sabi Mantock",
             "A Software Developer",
             "Specialized in React",
           ]}
@@ -44,7 +42,7 @@ const Header = () => {
         </HeaderText>
         <ResumeButton
           onClick={() =>
-            resumeButton(
+            linkButton(
               "https://docs.google.com/document/d/1oGENAFbF9co8ex71rqnySrK-QJIWNlUM-jdma5aceoY/edit?usp=sharing"
             )
           }
